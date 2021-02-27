@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rancid Nuts</title>
+    <link rel="stylesheet" href="../resources/CSS/index.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="supernatural">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Minoo">
+    <meta name="description" content="supernatural">
+</head>
+
+<body>
+    <header>
+        <a href="Rancidnuts.html">
+            <h1>Rancid Nuts</h1>
+        </a>
+        <p><i>Chronicling the culturally unique experience of living through S*pernatural season 16</i></p>
+    </header>
+    <nav class="topnav">
+        <a href="Rancidnuts.html">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#memes">Memes</a>
+        <a class="active" href="Register.html">Register</a>
+        <a href="Glossary.html">Glossary</a>
+        <input type="text" placeholder="Search...">
+    </nav>
+    <main class="form">
+        <section>
+            <article>
+                <p>Fill out this registration form to receive weekly emails and updates on <cite>S*pernatural</cite> season 16. (warning: Once you're in, there's no getting out. This is a hostage situation.)</p><br>
+                <p>Basic information:</p>
+                <form>
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br>
+                </form>
+                <br>
+                <p>Gender:</p>
+                <form>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                    <br>
+                    <p>Shipper Situation:</p>
+                </form>
+                <form>
+                    <input type="checkbox" id="shipping1" name="shipping" value="Destiel">
+                    <label for="shipping1">Destiel</label><br>
+                    <input type="checkbox" id="shipping2" name="shipping" value="Jenmish">
+                    <label for="shipping2">Jenmish</label><br>
+                    <input type="checkbox" id="shipping3" name="shipping" value="Saileen">
+                    <label for="shipping3">Saileen</label><br>
+                    <input type="checkbox" id="shipping4" name="shipping" value="Wincest/bronli">
+                    <label for="shipping4">Wincest/Bronli</label><br>
+                    <input type="checkbox" id="shipping5" name="shipping" value="J2">
+                    <label for="shipping5">J2</label>
+                </form>
+                <br>
+                <p>Once something batshit crazy happens and the fandom collectively decides it's the season finale and someone puts out this dumpster fire and we don't get picked up for season 17, would you still want to receive stuff from us?</p>
+                <form>
+                    <input type="radio" id="no" name="no" value="no">
+                    <label for="no">No</label><br>
+                    <input type="radio" id="yes" name="yes" value="yes">
+                    <label for="yes">Yes</label>
+                </form>
+                <br>
+                <form action="register.php" tageet="_blank" method="post" autocomplete="on" novalidate>
+                    <input type="submit" value="Submit">
+                </form>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <address>Author: Minoo <br> <a href="mailto:dervish1215@gmail.com">dervish1215@gmail.com</address>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </footer>
+</body>
+
+</html>
